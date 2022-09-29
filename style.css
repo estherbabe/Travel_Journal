@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;800&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  height: 55px;
+  background-color: #f55a5a;
+  color: #fff;
+}
+
+.nav-text {
+  font-size: 14.46px;
+}
+
+.travel-card {
+  display: flex;
+  padding: 50px 20px;
+  flex-direction: row;
+  max-width: 550px;
+  margin: auto;
+  background-color: #f5f7fb;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.card-text {
+  padding: 17px 2px;
+  max-width: 326px;
+}
+.location-img {
+  width: 100%;
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
+
+.img-div {
+  width: 175px;
+  display: flex;
+  flex: 0 0 auto;
+  margin-right: 20px;
+}
+
+.text-div {
+  display: flex;
+  align-items: center;
+}
+
+.pin-img {
+  height: 14px;
+}
+
+.black {
+  font-size: 14px;
+  color: #2b283a;
+  letter-spacing: 2px;
+  margin-left: 5px;
+}
+
+.gray {
+  margin-left: 15px;
+}
+
+a {
+  color: #918e9b;
+  font-size: 14px;
+}
+
+h1 {
+  color: #2b283a;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.date-txt {
+  font-weight: bold;
+  color: #2b283a;
+  font-size: 15px;
+}
+
+.txt {
+  color: #2b283a;
+  font-size: 15px;
+  text-align: left;
+  line-height: 20px;
+}
